@@ -1,0 +1,147 @@
+* {
+    font-family: "Inter", sans-serif;
+    
+}
+body{
+    margin: 0px;
+}
+
+#menuInicial {
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+#titulo-menuInicial {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+}
+
+#texto-menuInicial {
+    margin-top: -25px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+#informacoes {
+    align-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: 25px;
+}
+
+#titulo-informacoes {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.texto-informacoes {
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#sessaoImage {
+    align-content: center;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#titulo-sessaoImage {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#texto-sessaoImage {
+    font-size: 24px;
+    font-weight: 300
+}
+
+#image {
+    width: 510px;
+    height: 605px;
+    top: 781px;
+    left: 876px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+
+#formulario {
+    align-items: center;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#titulo-formulario {
+    color: #FFFFFF;
+    padding: 75px 0px 30px 0px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 7px;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    height: 75px;
+    margin: 25px;
+    padding-left: 15px;
+    width: 500px;
+}
+
+input::placeholder{
+    font-weight: bolder;
+    color: #0000004D;
+}
+
+button {
+    background-color: #C07212;
+    border-radius: 7px;
+    border: none;
+    color: #FFFFFF    ;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    height: 75px;
+    margin: 40px 0px 25px 0px;
+    padding-left: 15px;
+    width: 300px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #f69219;
+    color: #fff;
+    box-shadow: #694009 0px 15px 20px 0px;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
